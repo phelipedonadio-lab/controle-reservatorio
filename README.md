@@ -130,9 +130,10 @@ Você pode ajustar o programa mudando poucas linhas:
  
 <details>
 <summary>Clique para ver um exemplo de saída</summary>
+
 ```
    MONITORAMENTO DO RESERVATÓRIO DE ÁGUA
- 
+
 Leitura 01 | ███░░ | Nível 3: Médio
 Leitura 02 | ███░░ | Nível 3: Médio
 Leitura 03 | ██░░░ | Nível 2: Baixo
@@ -141,10 +142,10 @@ Leitura 05 | █░░░░ | Nível 1: Muito Baixo (CRÍTICO)
 Leitura 06 | ██░░░ | Nível 2: Baixo
 Leitura 07 | ███░░ | Nível 3: Médio
 Leitura 08 | ████░ | Nível 4: Alto
- 
+
 Monitoramento encerrado.
 ```
- 
+
 > No terminal, cada linha aparece com a cor do seu nível. Como as leituras são aleatórias, a sua sequência será diferente.
- 
+
 </details>
