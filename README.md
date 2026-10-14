@@ -130,6 +130,7 @@ Você pode ajustar o programa mudando poucas linhas:
  
 <details>
 <summary>Clique para ver um exemplo de saída</summary>
+ 
 ```
    MONITORAMENTO DO RESERVATÓRIO DE ÁGUA
  
