@@ -82,11 +82,11 @@ Cada nível tem uma situação, uma cor e uma barra própria:
  
 | Nível | Situação              | Cor      | Barra   |
 | ----- | --------------------- | -------- | ------- |
-| 1     | Muito baixo (CRÍTICO) | Vermelho | `█░░░░` |
-| 2     | Baixo                 | Amarelo  | `██░░░` |
-| 3     | Médio                 | Verde    | `███░░` |
-| 4     | Alto                  | Ciano    | `████░` |
-| 5     | Muito alto (ALERTA)   | Azul     | `█████` |
+| 1     | Muito baixo (CRÍTICO) | Vermelho | `■□□□□` |
+| 2     | Baixo                 | Amarelo  | `■■□□□` |
+| 3     | Médio                 | Verde    | `■■■□□` |
+| 4     | Alto                  | Ciano    | `■■■■□` |
+| 5     | Muito alto (ALERTA)   | Azul     | `■■■■■` |
  
 > [!NOTE]
 > A aparência exata das cores depende do tema do terminal. O azul, por exemplo, pode aparecer com tom de violeta. Se isso acontecer, troque `Fore.BLUE` por `Fore.LIGHTBLUE_EX` na função `definir_cor`.
@@ -133,14 +133,14 @@ Você pode ajustar o programa mudando poucas linhas:
 ```
    MONITORAMENTO DO RESERVATÓRIO DE ÁGUA
  
-Leitura 01 | ███░░ | Nível 3: Médio
-Leitura 02 | ███░░ | Nível 3: Médio
-Leitura 03 | ██░░░ | Nível 2: Baixo
-Leitura 04 | █░░░░ | Nível 1: Muito Baixo (CRÍTICO)
-Leitura 05 | █░░░░ | Nível 1: Muito Baixo (CRÍTICO)
-Leitura 06 | ██░░░ | Nível 2: Baixo
-Leitura 07 | ███░░ | Nível 3: Médio
-Leitura 08 | ████░ | Nível 4: Alto
+Leitura 01 | ■■■□□ | Nível 3: Médio
+Leitura 02 | ■■■□□ | Nível 3: Médio
+Leitura 03 | ■■□□□ | Nível 2: Baixo
+Leitura 04 | ■□□□□ | Nível 1: Muito Baixo (CRÍTICO)
+Leitura 05 | ■□□□□ | Nível 1: Muito Baixo (CRÍTICO)
+Leitura 06 | ■■□□□ | Nível 2: Baixo
+Leitura 07 | ■■■□□ | Nível 3: Médio
+Leitura 08 | ■■■■□ | Nível 4: Alto
  
 Monitoramento encerrado.
 ```
